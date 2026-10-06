@@ -1,11 +1,10 @@
 {
-  "name": "convert_to_json",
+  "name": "sync-blocking_node",
   "version": "1.0.0",
   "description": "",
-  "main": "convert.js",
+  "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node convert.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",

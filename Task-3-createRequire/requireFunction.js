@@ -3,7 +3,7 @@ const path = require("path");
 
 const cache = {};
 
-function myRequire(filePath) {
+function requireFunction(filePath) {
 
     // 1. File ka absolute path
     const fullPath = path.resolve(filePath + ".js");
@@ -43,4 +43,4 @@ function myRequire(filePath) {
     return module.exports;
 }
 
-module.exports = myRequire;
+module.exports = requireFunction;
